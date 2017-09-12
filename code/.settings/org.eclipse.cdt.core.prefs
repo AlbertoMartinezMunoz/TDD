@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891=
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/CPP_U_TEST/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/CPP_U_TEST/operation=remove
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/UNITY_64BIT_POINTER/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/UNITY_64BIT_POINTER/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/UNITY_64BIT_POINTER/value=Y
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.macosx.base.1615990891/appendContributed=true

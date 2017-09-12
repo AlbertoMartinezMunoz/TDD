@@ -1,0 +1,16 @@
+objs/mocks/IO/FakeMicroTime.o: mocks/IO/FakeMicroTime.c \
+ /home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/MemoryLeakDetectorMallocMacros.h \
+ /home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/CppUTestConfig.h \
+ /home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/CppUTestGeneratedConfig.h \
+ /home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/StandardCLibrary.h \
+ include/IO/MicroTime.h
+
+/home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/MemoryLeakDetectorMallocMacros.h:
+
+/home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/CppUTestConfig.h:
+
+/home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/CppUTestGeneratedConfig.h:
+
+/home/martinezm/Proyectos/cpputest-3.8/include/CppUTest/StandardCLibrary.h:
+
+include/IO/MicroTime.h:

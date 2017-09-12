@@ -1,0 +1,12 @@
+17:34:41 **** Auto Build of configuration MacOSX GCC for project SandBox ****
+make all 
+make -i -f MakefileCppUTest.mk 
+make[1]: Entering directory '/home/martinezm/Proyectos/TDD/code/SandBox'
+MakefileCppUTest.mk:32: /build/MakefileWorker.mk: No such file or directory
+make[1]: *** No rule to make target '/build/MakefileWorker.mk'.  Stop.
+make[1]: Leaving directory '/home/martinezm/Proyectos/TDD/code/SandBox'
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 2
+
+17:34:41 Build Finished (took 109ms)
+

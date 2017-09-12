@@ -1,0 +1,12 @@
+17:38:30 **** Auto Build of configuration MacOSX GCC for project code ****
+make all 
+make -i -C t0
+make[1]: Entering directory '/home/martinezm/Proyectos/TDD/code/t0'
+CPPUTEST_HOME not set! See README.txt
+make[1]: Leaving directory '/home/martinezm/Proyectos/TDD/code/t0'
+make[1]: *** No targets.  Stop.
+Makefile:18: recipe for target 'everything' failed
+make: *** [everything] Error 2
+
+17:38:30 Build Finished (took 64ms)
+

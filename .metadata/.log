@@ -1,0 +1,168 @@
+!SESSION 2017-08-28 17:30:33.740 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -data /home/martinezm/Proyectos/TDD -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2017-08-28 17:30:39.483
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.200.dist [593]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.200.v20160324-1850 [167]
+]  
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-08-28 17:30:39.486
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.0.100.dist [597]
+]
+Component2: Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.200.v20160606-1311 [199]
+]  
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-08-28 17:31:01.972
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-28 17:34:00.742
+!MESSAGE Could not auto-share project SandBox
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'SandBox'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-28 17:34:00.781
+!MESSAGE Provided SVN information does not match that on disk for project 'SandBox'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-28 17:34:00.849
+!MESSAGE Could not auto-share project code
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'code'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-28 17:34:00.850
+!MESSAGE Provided SVN information does not match that on disk for project 'code'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-28 17:34:00.857
+!MESSAGE Could not auto-share project t0
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 't0'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-28 17:34:00.857
+!MESSAGE Provided SVN information does not match that on disk for project 't0'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-28 17:34:00.864
+!MESSAGE Could not auto-share project t1
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 't1'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-28 17:34:00.864
+!MESSAGE Provided SVN information does not match that on disk for project 't1'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-28 17:34:00.870
+!MESSAGE Could not auto-share project t2
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 't2'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-28 17:34:00.871
+!MESSAGE Provided SVN information does not match that on disk for project 't2'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-28 17:34:00.876
+!MESSAGE Could not auto-share project t3
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 't3'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-28 17:34:00.876
+!MESSAGE Provided SVN information does not match that on disk for project 't3'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-28 17:34:24.637
+!MESSAGE Indexed 't0' (13 sources, 170 headers) in 14.3 sec: 9,244 declarations; 13,820 references; 3 unresolved inclusions; 1 syntax errors; 33 unresolved names (0.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-28 17:34:30.417
+!MESSAGE Indexed 't1' (34 sources, 211 headers) in 4.75 sec: 11,232 declarations; 15,533 references; 1 unresolved inclusions; 1 syntax errors; 7 unresolved names (0.026%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-28 17:34:35.201
+!MESSAGE Indexed 't2' (25 sources, 184 headers) in 4 sec: 9,642 declarations; 13,600 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-28 17:34:40.708
+!MESSAGE Indexed 't3' (27 sources, 186 headers) in 4.75 sec: 9,625 declarations; 13,630 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-28 17:34:51.681
+!MESSAGE Indexed 'code' (191 sources, 365 headers) in 10.9 sec: 20,962 declarations; 41,981 references; 39 unresolved inclusions; 21 syntax errors; 472 unresolved names (0.74%)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-08-28 17:38:34.894
+!MESSAGE The workspace will exit with unsaved changes in this session.
